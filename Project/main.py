@@ -41,7 +41,7 @@ def predict():
 
     classes = ['cat', 'dog']
 
-    return classes[int(results.round())]
+    return jsonify(classes[int(results.round())])
 
 
 if __name__ == '__main__':
