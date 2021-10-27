@@ -1,2 +1,2 @@
-# Cats_vs_dog_classifier
- A tensorflow model that predicts if the image is of a cat or of a dog.
+# Cats and dogs image classifier
+ A deep learning tensorflow model desgined to predict if the image is of a cat or of a dog.
