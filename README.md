@@ -9,23 +9,22 @@ You will also need a Chrome extension (download [here](https://chrome.google.com
 
 ## How to run the project
 
-Install the dependencies:
+Install the dependencies (navigate to the downloaded project, where the environment.yml is):
 
 ```bash
-npm install
+conda env create -f environment.yml
 ```
 
-Build and run the server in production mode:
+Activate anaconda environment:
 
 ```bash
-npm run build
-npm run start
+conda activate tensorflowGPU
 ```
 
-Run the server in development mode:
+Run the flask server:
 
 ```bash
-npm run dev
+python main.py
 ```
 
 Navigate to [http://localhost:5000](http://localhost:5000) to see the flask server running.
